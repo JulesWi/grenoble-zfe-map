@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 210 20% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 214 84% 56%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -37,6 +37,16 @@ All colors MUST be HSL.
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+    
+    /* ZFE specific colors */
+    --zfe-primary: 214 84% 56%;
+    --zfe-secondary: 197 71% 73%;
+    --zfe-success: 142 76% 36%;
+    --zfe-warning: 45 93% 47%;
+    --zfe-danger: 0 84% 60%;
+    --zfe-info: 204 94% 94%;
+    --zfe-sidebar: 216 12% 84%;
+    --zfe-dashboard: 0 84% 60%;
 
     --sidebar-background: 0 0% 98%;
 
