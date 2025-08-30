@@ -44,9 +44,9 @@ export const ZFEInterface: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background overflow-hidden">
+    <div className="min-h-screen bg-gray-50 overflow-hidden">
       <ZFEHeader />
-      <div className="flex h-[calc(100vh-80px)]">
+      <div className="flex h-[calc(100vh-88px)]">
         <ZFESidebar 
           config={config}
           onFeatureFilter={handleFeatureFilter}
